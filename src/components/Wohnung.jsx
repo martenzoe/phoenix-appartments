@@ -33,20 +33,17 @@ export default function Wohnungen() {
   ];
 
   return (
-    <section id="wohnungen" className="relative bg-white">
-      {/* Dunkelblauer Hintergrund unten */}
-      <div className="absolute inset-x-0 bottom-0 h-[400px] bg-[#19233C] -z-10 clip-half-arc"></div>
-
-      <div className="max-w-6xl mx-auto px-4 py-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <section id="wohnungen" className="bg-[#19233C] text-white py-20 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {cards.map((card, i) => (
-          <div key={i} className="bg-white rounded-lg shadow-md p-4 text-center">
+          <div key={i} className="bg-white text-gray-800 rounded-lg shadow-md p-4 text-center">
             <img
               src={card.image}
               alt={card.title}
               className="w-full h-48 object-cover rounded-md mb-4"
             />
             <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
-            <p className="text-sm text-gray-600 whitespace-pre-line mb-4">{card.desc}</p>
+            <p className="text-sm whitespace-pre-line mb-4">{card.desc}</p>
             <a
               href={card.link}
               target="_blank"
@@ -59,12 +56,12 @@ export default function Wohnungen() {
         ))}
       </div>
 
-      {/* Infotextblock */}
-      <div className="max-w-4xl mx-auto px-4 py-12 text-white text-center text-sm">
+      {/* Infoblock */}
+      <div className="max-w-4xl mx-auto mt-16 text-center">
         <h3 className="text-xl font-semibold mb-4">Sie möchten flexibel buchen?</h3>
         <p>
           Jetzt telefonisch unter <strong>+49 155 60434704</strong> oder per Mail unter<br />
-          <a href="mailto:wohnenaufzeitdortmund@gmail.com" className="underline">
+          <a href="mailto:wohnenaufzeitdortmund@gmail.com" className="underline text-white">
             wohnenaufzeitdortmund@gmail.com
           </a>{" "}
           anfragen!
