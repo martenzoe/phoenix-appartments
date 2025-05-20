@@ -1,13 +1,44 @@
-# React + Vite
+# Business Apartments Dortmund – Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web presence for premium short-term apartments in Dortmund. Built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Project Overview
 
-## Expanding the ESLint configuration
+This website showcases several fully furnished business apartments in top locations around Dortmund. It targets both business travelers and private guests seeking high-quality, short-term accommodation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# phoenix-appartments
+**Core Features:**
+- Overview of all apartments with direct booking links (Booking.com)
+- Mobile-first, responsive layout
+- Instagram promo section with QR code
+- Contact section with embedded multi-location Google Map
+- Separate legal pages: Imprint and Privacy Policy
+- Cookie consent banner (accept/decline)
+- Smooth scrolling to all key sections: Start, Apartments, About, Contact
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org) – SPA framework
+- [Tailwind CSS](https://tailwindcss.com) – utility-first CSS framework
+- [React Router](https://reactrouter.com) – routing for legal pages
+- [Formspree](https://formspree.io) – contact form backend (to be activated)
+- [React Icons](https://react-icons.github.io/react-icons) – Instagram icon
+
+---
+
+## 📁 Project Structure
+/src
+/assets → Images, QR code, logos
+/components → All reusable sections and UI blocks
+App.jsx → Main app structure and routing
+main.jsx → React entry point
+/public
+favicon.ico → Browser tab icon (logo)
+index.html → HTML wrapper
+
+
+## 📁 License
+This project is proprietary and not licensed for redistribution.
