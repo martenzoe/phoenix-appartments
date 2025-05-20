@@ -35,7 +35,7 @@ export default function Faq() {
   ];
 
   return (
-    <section className="bg-white py-20 px-4">
+    <section className="bg-gray-100 py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold mb-12 text-center">Häufige Fragen (FAQ)</h2>
 

@@ -1,32 +1,45 @@
 import { useState } from "react";
-import { Link as ScrollLink } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleScrollOrNavigate = (id) => {
+    if (location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: id } });
+    } else {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+    setIsOpen(false);
+  };
 
   const toggleMenu = () => setIsOpen(!isOpen);
-  const closeMenu = () => setIsOpen(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
       <div className="max-w-6xl mx-auto px-4 py-3 md:py-4 flex items-center justify-between">
-        {/* Logo links */}
-        <ScrollLink to="start" smooth={true} duration={500} offset={-80} className="cursor-pointer">
+        {/* Logo */}
+        <button onClick={() => handleScrollOrNavigate("start")} className="cursor-pointer">
           <img
             src={logo}
             alt="Logo"
             className="h-12 sm:h-28 w-auto object-contain"
           />
-        </ScrollLink>
+        </button>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 text-sm text-gray-700 tracking-wide">
-          <ScrollLink to="wohnungen" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-black transition">Wohnungen</ScrollLink>
-          <ScrollLink to="ueber-uns" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-black transition">Über uns</ScrollLink>
-          <ScrollLink to="kontakt" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-black transition">Kontakt</ScrollLink>
-          <RouterLink to="/impressum" className="hover:text-black transition">Impressum</RouterLink>
+          <button onClick={() => handleScrollOrNavigate("start")} className="hover:text-black transition">Start</button>
+          <button onClick={() => handleScrollOrNavigate("wohnungen")} className="hover:text-black transition">Wohnungen</button>
+          <button onClick={() => handleScrollOrNavigate("ueber-uns")} className="hover:text-black transition">Über uns</button>
+          <button onClick={() => handleScrollOrNavigate("kontakt")} className="hover:text-black transition">Kontakt</button>
+          <button onClick={() => navigate("/impressum")} className="hover:text-black transition">Impressum</button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -53,10 +66,11 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-2 flex flex-col space-y-3 text-sm text-gray-700">
-            <ScrollLink to="wohnungen" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-black" onClick={closeMenu}>Wohnungen</ScrollLink>
-            <ScrollLink to="ueber-uns" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-black" onClick={closeMenu}>Über uns</ScrollLink>
-            <ScrollLink to="kontakt" smooth={true} duration={500} offset={-80} className="cursor-pointer hover:text-black" onClick={closeMenu}>Kontakt</ScrollLink>
-            <RouterLink to="/impressum" className="hover:text-black" onClick={closeMenu}>Impressum</RouterLink>
+            <button onClick={() => handleScrollOrNavigate("start")} className="hover:text-black">Start</button>
+            <button onClick={() => handleScrollOrNavigate("wohnungen")} className="hover:text-black">Wohnungen</button>
+            <button onClick={() => handleScrollOrNavigate("ueber-uns")} className="hover:text-black">Über uns</button>
+            <button onClick={() => handleScrollOrNavigate("kontakt")} className="hover:text-black">Kontakt</button>
+            <button onClick={() => navigate("/impressum")} className="hover:text-black">Impressum</button>
           </div>
         </div>
       )}
