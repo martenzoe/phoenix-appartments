@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Wohnung from "./components/Wohnung";
 import HeroSection from "./components/HeroSection";
 import InfoBoxes from "./components/InfoBoxes";
+import UeberUns from "./components/UeberUns";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
             <>
               <HeroSection />
               <Wohnung /> 
+              <UeberUns />
               <InfoBoxes />
+              
             </>
             } />
             
