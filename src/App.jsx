@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Wohnung from "./components/Wohnung";
 import HeroSection from "./components/HeroSection";
+import InfoBoxes from "./components/InfoBoxes";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             <>
               <HeroSection />
               <Wohnung /> 
-              
+              <InfoBoxes />
             </>
             } />
             
