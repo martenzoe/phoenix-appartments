@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .clip-half-arc {
     clip-path: ellipse(120% 100% at 50% 100%);
   }

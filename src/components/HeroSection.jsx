@@ -6,7 +6,7 @@ export default function HeroSection() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section className="bg-white text-center py-20 px-4 mt-13">
+    <section id="start" className="bg-white text-center py-20 px-4 mt-13">
       <h1 className="text-3xl sm:text-4xl font-bold mb-4">
         Hier finden Sie Businessunterkünfte auf Zeit in Dortmund!
       </h1>
