@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import InfoBoxes from "./components/InfoBoxes";
 import UeberUns from "./components/UeberUns";
 import Kontakt from "./components/Kontakt";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Wohnung /> 
               <UeberUns />
               <InfoBoxes />
+              <Faq />
               <Kontakt />
             </>
             } />
