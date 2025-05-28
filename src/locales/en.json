@@ -87,5 +87,19 @@
         "answer": "You get self check-in via keybox or door code. You’ll receive instructions 24 hours before arrival."
       }
     ]
+  },
+  "infoboxes": {
+    "box1": {
+      "title": "Prime Location & Comfort",
+      "text": "Our exclusive apartments are located in top locations and offer high-quality furnishings for maximum comfort."
+    },
+    "box2": {
+      "title": "Combine Business & Leisure",
+      "text": "Whether for project work, long-term stays or relaxation – we offer the perfect balance between work and well-being."
+    },
+    "box3": {
+      "title": "Personal Service",
+      "text": "We are always available for you and ensure a smooth experience – personal, straightforward and reliable."
+    }
   }
 }

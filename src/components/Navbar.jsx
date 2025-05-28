@@ -40,7 +40,6 @@ export default function Navbar() {
           <button onClick={() => handleScrollOrNavigate("wohnungen")} className="hover:text-black transition">{t("nav.wohnungen")}</button>
           <button onClick={() => handleScrollOrNavigate("ueber-uns")} className="hover:text-black transition">{t("nav.ueberUns")}</button>
           <button onClick={() => handleScrollOrNavigate("kontakt")} className="hover:text-black transition">{t("nav.kontakt")}</button>
-          <button onClick={() => navigate("/impressum")} className="hover:text-black transition">{t("nav.impressum")}</button>
           <button onClick={toggleLanguage} className="border px-2 py-1 rounded text-xs">
             {i18n.language === "de" ? "EN" : "DE"}
           </button>

@@ -87,5 +87,19 @@
         "answer": "Der Zugang erfolgt per Self-Check-in – entweder Schlüsselbox oder Türcode. Details erhalten Sie 24 Stunden vorher."
       }
     ]
+  },
+  "infoboxes": {
+    "box1": {
+      "title": "Top Lage & Komfort",
+      "text": "Unsere exklusiven Wohnungen befinden sich in erstklassigen Lagen und bieten eine hochwertige Ausstattung für maximalen Komfort."
+    },
+    "box2": {
+      "title": "Business & Freizeit kombinieren",
+      "text": "Ob für Projektarbeit, Langzeitaufenthalt oder Erholung – bei uns finden Sie die perfekte Balance zwischen Arbeiten und Wohlfühlen."
+    },
+    "box3": {
+      "title": "Persönlicher Service",
+      "text": "Wir sind jederzeit für Sie erreichbar und kümmern uns um einen reibungslosen Ablauf – persönlich, unkompliziert und zuverlässig."
+    }
   }
 }
