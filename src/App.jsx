@@ -13,6 +13,7 @@ import Impressum from "./components/Impressum";
 import Footer from "./components/Footer";
 import CookieBanner from "./components/CookieBanner";
 import InstagramPromo from "./components/InstagramPromo";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function ScrollToSectionOnLoad() {
   const location = useLocation();
@@ -65,6 +66,7 @@ export default function App() {
         </main>
         <Footer />
         <CookieBanner />
+        <WhatsAppButton />
       </div>
     </Router>
   );

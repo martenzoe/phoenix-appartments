@@ -1,22 +1,25 @@
+import { useTranslation } from "react-i18next";
 import topLageImg from "../assets/top-lage.jpg";
 import businessFreizeitImg from "../assets/business-freizeit.jpg";
 import serviceImg from "../assets/persönlicher-service.jpg";
 
 export default function InfoBoxes() {
+  const { t } = useTranslation();
+
   const boxes = [
     {
-      title: "Top Lage & Komfort",
-      text: "Unsere exklusiven Wohnungen befinden sich in erstklassigen Lagen und bieten eine hochwertige Ausstattung für maximalen Komfort.",
+      title: t("infoboxes.box1.title"),
+      text: t("infoboxes.box1.text"),
       image: topLageImg,
     },
     {
-      title: "Business & Freizeit kombinieren",
-      text: "Ob für Projektarbeit, Langzeitaufenthalt oder Erholung – bei uns finden Sie die perfekte Balance zwischen Arbeiten und Wohlfühlen.",
+      title: t("infoboxes.box2.title"),
+      text: t("infoboxes.box2.text"),
       image: businessFreizeitImg,
     },
     {
-      title: "Persönlicher Service",
-      text: "Wir sind jederzeit für Sie erreichbar und kümmern uns um einen reibungslosen Ablauf – persönlich, unkompliziert und zuverlässig.",
+      title: t("infoboxes.box3.title"),
+      text: t("infoboxes.box3.text"),
       image: serviceImg,
     },
   ];

@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "title": "Hier finden Sie Businessunterkünfte auf Zeit in Dortmund!",
+    "subtitle": "Ich biete erstklassige Wohnungen in Top Lage mit hochwertiger Ausstattung exklusiv und komfortabel – ideal für Business-Besucher und Privatgäste!",
+    "cta": "Jetzt anrufen!",
+    "stars": "Sterne",
+    "avgRating": "ø Bewertung",
+    "modalTitle": "Jetzt anrufen oder schreiben!",
+    "modalEmail": "oder Email unter"
+  },
+  "wohnungen": {
+    "card1": {
+      "title": "Top Location Business Suite mit Küche am Phönixsee",
+      "desc": "ca. 45 QM – 1,5 Zimmer – 1 Bad – Balkon\nBis zu 4 Personen – mit Waschmaschine"
+    },
+    "card2": {
+      "title": "Top Location small Business Suite am Phönixsee",
+      "desc": "ca. 35 qm – 1 Zimmer – 1 Bad –\nBis zu 4 Personen – mit Waschmaschine"
+    },
+    "card3": {
+      "title": "Heart of City Suite",
+      "desc": "ca. 80 QM – 3 Zimmer – Küche – 1 Bad –\nBis zu 8 Personen – mit eigener Waschmaschine"
+    },
+    "card4": {
+      "title": "City Living Dortmund – Top Lage in der Innenstadt!",
+      "desc": "ca. 25 QM – 1,5 Zimmer – Küche – 1 Bad –\nBis zu 3 Personen"
+    },
+    "button": "Jetzt buchen!",
+    "flexible": {
+      "title": "Sie möchten flexibel buchen?",
+      "text1": "Jetzt telefonisch unter",
+      "text2": "oder per Mail unter",
+      "text3": "B2B-Rechnungsausstellung möglich!",
+      "text4": "Bitte treten Sie dazu einfach vor Buchung mit uns in Kontakt!"
+    }
+  },
+  "ueberuns": {
+    "heading": "Ihr Komfort ist unsere Priorität",
+    "point1": "Parkplätze vorhanden (teilweise gegen Aufpreis)",
+    "point2": "Top Service – wir sind immer erreichbar",
+    "point3": "Saubere und moderne Einrichtung",
+    "button": "Jetzt Kontakt aufnehmen",
+    "imageAlt": "Haus am Phönixsee"
+  },
+  "nav": {
+    "start": "Start",
+    "wohnungen": "Wohnungen",
+    "ueberUns": "Über uns",
+    "kontakt": "Kontakt",
+    "impressum": "Impressum"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Für Fragen, Buchungen oder individuelle Angebote kontaktieren Sie uns gerne direkt:",
+    "note": "Wir bieten mehrere möblierte Wohnungen an verschiedenen Standorten in Dortmund."
+  },
+  "instagram": {
+    "tagline": "⚡ Jetzt bei Instagram abonnieren!",
+    "headline": "Alle unsere Unterkünfte\nfinden Sie auch bei Instagram",
+    "button": "Jetzt abonnieren"
+  },
+  "faq": {
+    "title": "Häufige Fragen (FAQ)",
+    "items": [
+      {
+        "question": "Wo kann ich parken?",
+        "answer": "Bei den Apartments am Phönixsee sind kostenlose Parkplätze in der Umgebung. Gegen Aufpreis (+10 €/Tag) kann ein Parkplatz im Hof gebucht werden. In der Innenstadt gibt es kostenpflichtige Parkhäuser und Parkplätze fußläufig an der Unterkunft. Bei Fragen helfen wir gerne weiter!"
+      },
+      {
+        "question": "Gibt es Bettwäsche, Handtücher etc.?",
+        "answer": "Ja – Bettwäsche und Handtücher sind vorhanden."
+      },
+      {
+        "question": "Ist eine Rechnungsstellung möglich?",
+        "answer": "Ja. Bitte rufen Sie uns an oder schreiben Sie an wohnenaufzeitdortmund@gmail.com."
+      },
+      {
+        "question": "Wie lange kann ich bleiben?",
+        "answer": "Wir bieten Aufenthalte von 1 Tag bis 6 Monaten. Eine Verlängerung ist jederzeit möglich."
+      },
+      {
+        "question": "Wann ist Check-In & Check-Out?",
+        "answer": "Check-In ab 15 Uhr, Check-Out bis 12 Uhr. Individuelle Zeiten auf Anfrage möglich – einfach melden."
+      },
+      {
+        "question": "Wie komme ich in die Wohnung?",
+        "answer": "Der Zugang erfolgt per Self-Check-in – entweder Schlüsselbox oder Türcode. Details erhalten Sie 24 Stunden vorher."
+      }
+    ]
+  }
+}

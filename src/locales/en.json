@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "title": "Discover business accommodation in Dortmund!",
+    "subtitle": "I offer premium apartments in top locations – high-quality, exclusive, and ideal for business travelers and private guests!",
+    "cta": "Call now!",
+    "stars": "stars",
+    "avgRating": "avg. rating",
+    "modalTitle": "Call or message us now!",
+    "modalEmail": "or email us at"
+  },
+  "wohnungen": {
+    "card1": {
+      "title": "Top Location Business Suite with Kitchen at Phönixsee",
+      "desc": "Approx. 45 sqm – 1.5 rooms – 1 bathroom – Balcony\nUp to 4 people – with washing machine"
+    },
+    "card2": {
+      "title": "Top Location Small Business Suite at Phönixsee",
+      "desc": "Approx. 35 sqm – 1 room – 1 bathroom –\nUp to 4 people – with washing machine"
+    },
+    "card3": {
+      "title": "Heart of City Suite",
+      "desc": "Approx. 80 sqm – 3 rooms – Kitchen – 1 bathroom –\nUp to 8 people – with private washing machine"
+    },
+    "card4": {
+      "title": "City Living Dortmund – Prime Location Downtown!",
+      "desc": "Approx. 25 sqm – 1.5 rooms – Kitchen – 1 bathroom –\nUp to 3 people"
+    },
+    "button": "Book now!",
+    "flexible": {
+      "title": "Would you like to book flexibly?",
+      "text1": "Call us now at",
+      "text2": "or send us an email at",
+      "text3": "B2B invoice possible!",
+      "text4": "Please contact us before booking."
+    }
+  },
+  "ueberuns": {
+    "heading": "Your comfort is our priority",
+    "point1": "Parking available (some for an extra charge)",
+    "point2": "Top service – we’re always available",
+    "point3": "Clean and modern facilities",
+    "button": "Get in touch now",
+    "imageAlt": "House at Phönixsee"
+  },
+  "nav": {
+    "start": "Home",
+    "wohnungen": "Apartments",
+    "ueberUns": "About us",
+    "kontakt": "Contact",
+    "impressum": "Legal Notice"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "For questions, bookings, or individual offers, feel free to contact us directly:",
+    "note": "We offer several furnished apartments at various locations in Dortmund."
+  },
+  "instagram": {
+    "tagline": "⚡ Subscribe on Instagram now!",
+    "headline": "You’ll find all our apartments\non Instagram too",
+    "button": "Subscribe now"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "question": "Where can I park?",
+        "answer": "Free parking is available around the apartments at Phönixsee. For €10/day you can also reserve a private parking spot in the courtyard. In the city center, paid garages and parking lots are within walking distance. Feel free to ask!"
+      },
+      {
+        "question": "Are bed linens and towels provided?",
+        "answer": "Yes – bed linens and towels are available."
+      },
+      {
+        "question": "Can I get an invoice?",
+        "answer": "Yes. Just call or email wohnenaufzeitdortmund@gmail.com."
+      },
+      {
+        "question": "How long can I stay?",
+        "answer": "We offer stays from 1 day to 6 months. Extensions are always possible."
+      },
+      {
+        "question": "When is check-in & check-out?",
+        "answer": "Check-in from 3 PM, check-out until 12 PM. Custom times available on request – just let us know."
+      },
+      {
+        "question": "How do I access the apartment?",
+        "answer": "You get self check-in via keybox or door code. You’ll receive instructions 24 hours before arrival."
+      }
+    ]
+  }
+}

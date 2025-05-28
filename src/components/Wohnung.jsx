@@ -1,32 +1,34 @@
+import { useTranslation } from "react-i18next";
 import businessSuite from "../assets/cards/business-suite.jpg";
 import heartOfCity from "../assets/cards/heart-of-city.jpg";
 import cityLiving from "../assets/cards/city-living.jpg";
 import suiteKüche from "../assets/cards/suite-mit-küche.jpg";
 
-
 export default function Wohnungen() {
+  const { t } = useTranslation();
+
   const cards = [
     {
-      title: "Top Location Business Suite mit Küche am Phönixsee",
-      desc: "ca. 45 QM – 1,5 Zimmer – 1 Bad – Balkon\nBis zu 4 Personen – mit Waschmaschine",
+      title: t("wohnungen.card1.title"),
+      desc: t("wohnungen.card1.desc"),
       image: suiteKüche,
       link: "https://www.booking.com/hotel/de/gemutliche-wohnung-am-phonixsee.de.html?aid=304142&label=gen173nr-1BCAsoO0IfZ2VtdXRsaWNoZS13b2hudW5nLWFtLXBob25peHNlZUgzWARoO4gBApgBB7gBGMgBDdgBAegBAYgCAagCBLgCmseRvgbAAgHSAiQxZTk5M2JiMi0wOTk2LTRiOWItOTZjNi00YTlhYmIyMWEzYTPYAgXgAgE-Share-J5o4FJW%401740923806",
     },
     {
-      title: "Top Location small Business Suite am Phönixsee",
-      desc: "ca. 35 qm – 1 Zimmer – 1 Bad –\nBis zu 4 Personen – mit Waschmaschine",
+      title: t("wohnungen.card2.title"),
+      desc: t("wohnungen.card2.desc"),
       image: businessSuite,
       link: "https://www.booking.com/hotel/de/gemutliche-wohnung-am-phonixsee.de.html?aid=304142&label=gen173nr-1BCAsoO0IfZ2VtdXRsaWNoZS13b2hudW5nLWFtLXBob25peHNlZUgzWARoO4gBApgBB7gBGMgBDdgBAegBAYgCAagCBLgCmseRvgbAAgHSAiQxZTk5M2JiMi0wOTk2LTRiOWItOTZjNi00YTlhYmIyMWEzYTPYAgXgAgE-Share-J5o4FJW%401740923806",
     },
     {
-      title: "Heart of City Suite",
-      desc: "ca. 80 QM – 3 Zimmer – Küche – 1 Bad –\nBis zu 8 Personen – mit eigener Waschmaschine",
+      title: t("wohnungen.card3.title"),
+      desc: t("wohnungen.card3.desc"),
       image: heartOfCity,
       link: "https://www.booking.com/hotel/de/citywohnung-dortmund-toplage.de.html?aid=304142&label=gen173nr-1BCAsoO0IcY2l0eXdvaG51bmctZG9ydG11bmQtdG9wbGFnZUgzWARoO4gBApgBB7gBGMgBDdgBAegBAYgCAagCBLgCzseRvgbAAgHSAiQyOGYyNTUxYy0wNTM3LTQ2YzgtODM2MS0yMmI2NmNkYmJmMzfYAgXgAgE-Share-mb2QSr%401740923856#tab-main",
     },
     {
-      title: "City Living Dortmund – Top Lage in der Innenstadt!",
-      desc: "ca. 25 QM – 1,5 Zimmer – Küche – 1 Bad –\nBis zu 3 Personen",
+      title: t("wohnungen.card4.title"),
+      desc: t("wohnungen.card4.desc"),
       image: cityLiving,
       link: "https://www.booking.com/hotel/de/cityliving-dortmund-top-lage.de.html?aid=304142&label=gen173nr-1BCAsoO0IcY2l0eWxpdmluZy1kb3J0bXVuZC10b3AtbGFnZUgzWARoO4gBApgBB7gBGMgBDdgBAegBAYgCAagCBLgCtceRvgbAAgHSAiQ5ODVlZDAxNS1lMTQ5LTQyZjItYmY5ZS1lMDZkMjcxNGFmYWPYAgXgAgE-Share-BDXjD7%401740923832",
     },
@@ -50,25 +52,23 @@ export default function Wohnungen() {
               rel="noopener noreferrer"
               className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition text-sm font-medium"
             >
-              Jetzt buchen!
+              {t("wohnungen.button")}
             </a>
           </div>
         ))}
       </div>
 
-      {/* Infoblock */}
       <div className="max-w-4xl mx-auto mt-16 text-center">
-        <h3 className="text-xl font-semibold mb-4">Sie möchten flexibel buchen?</h3>
+        <h3 className="text-xl font-semibold mb-4">{t("wohnungen.flexible.title")}</h3>
         <p>
-          Jetzt telefonisch unter <strong>+49 155 60434704</strong> oder per Mail unter<br />
+          {t("wohnungen.flexible.text1")}{" "}
+          <strong>+49 155 60434704</strong> {t("wohnungen.flexible.text2")}<br />
           <a href="mailto:wohnenaufzeitdortmund@gmail.com" className="underline text-white">
             wohnenaufzeitdortmund@gmail.com
-          </a>{" "}
-          anfragen!
+          </a>
         </p>
         <p className="mt-4">
-          <strong>B2B-Rechnungsausstellung möglich!</strong> Bitte treten Sie dazu einfach vor
-          Buchung mit uns in Kontakt!
+          <strong>{t("wohnungen.flexible.text3")}</strong> {t("wohnungen.flexible.text4")}
         </p>
       </div>
     </section>
